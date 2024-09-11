@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(255, 0, 9);
+    font-size: 4em;
+    text-align: center;
+}
+
+body {
+    background: repeating-linear-gradient(
+        transparent,
+        transparent 1px,
+        #ccc 2px,
+        #ccc 40px
+      ),
+      /* on "bottom" */ linear-gradient(to bottom, #eee, #999);
+  }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align:center;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    gap:1em;
+}
+
+
+img {
+    max-width: 16em;
+    max-height: 16em;
+}
+
+@media only screen and (min-width: 700px)   {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+@media only screen and (min-width: 1200px)   {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
