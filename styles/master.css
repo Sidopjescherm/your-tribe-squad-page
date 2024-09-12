@@ -1,7 +1,6 @@
 *{
- font-family: sans-serif;
+ font-family: 'Courier New', Courier, monospace;
 }
-
 
 header {
     border: 0.2rem solid;
@@ -11,7 +10,7 @@ header {
 }
 
 h1 {
-    color: rgb(255, 0, 9);
+    color: rgb(213, 83, 135);
     font-size: 4em;
     text-align: center;
 }
@@ -33,14 +32,15 @@ ul {
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items:center;
-    gap:1em;
+    gap:1.5em;
     max-width: 70em;
     margin:auto;
 }
 
 li {
     text-align:center;
-    border: 0.1em;
+    border: 0.1em solid;
+    margin: auto;
 }
 
 
@@ -48,6 +48,11 @@ img {
     max-width: 20em;
     max-height: 20em;
     
+}
+
+.top {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.5em;
 }
 
 @media only screen and (min-width: 40em)   {
@@ -59,5 +64,8 @@ img {
 @media only screen and (min-width: 60em)   {
     ul {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .top{
+        grid-template-columns: 1fr max-content 1fr;
     }
 }
