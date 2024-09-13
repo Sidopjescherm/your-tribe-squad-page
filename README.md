@@ -1,10 +1,13 @@
 
 # Squad page
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
+Chat, zie onze code hier:
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
+Luuk:
+https://sidopjescherm.github.io/your-tribe-squad-page/luukcode/luukindex.html
+Sebas:
 
+https://sidopjescherm.github.io/your-tribe-squad-page/sebas/index.html
 ## Licentie
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+
