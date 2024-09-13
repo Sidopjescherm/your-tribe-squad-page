@@ -33,14 +33,11 @@ section{
     align-items: center;
 }
 
-ul{
+.squad{
     max-width: 100%;
     width: 50%;
     margin: 0 auto; /* Houd Ul in het midden */
     padding: 0em;
-}
-
-.squad{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: dense;
