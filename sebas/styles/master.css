@@ -51,15 +51,35 @@ img {
 }
 
 .top {
-    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
     gap:0.5em;
+    max-width: 30em;
 }
 
-@media only screen and (min-width: 40em)   {
+.top_image{
+    max-width: 15em;
+    max-height:15em;
+}    
+
+@media only screen and (min-width: 0em) {
+    .top {
+        grid-template-columns: (1fr 1fr 1fr);
+    }
+}
+
+@media only screen and (min-width: 40em) {
     ul {
         grid-template-columns: 1fr 1fr 1fr;
     }
-  }
+    .top{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:1.0em;
+    }
+    .top_image{
+        max-width: 20em;
+        max-height: 20em;
+    }
+}
 
 @media only screen and (min-width: 60em)   {
     ul {
