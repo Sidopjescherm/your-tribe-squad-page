@@ -13,18 +13,12 @@ h1 {
     color: rgb(213, 83, 135);
     font-size: 4em;
     text-align: center;
+    background-color: purple;
 }
 
 body {
-    
-    background: repeating-linear-gradient(
-        transparent,
-        transparent 1px,
-        #ccc 2px,
-        #ccc 40px
-      ),
-      /* on "bottom" */ linear-gradient(to bottom, #eee, #999);
-  }
+    background-color: lightPink;
+}
 
 ul {
     padding-top: 40px;
@@ -47,13 +41,14 @@ li {
 img {
     max-width: 13em;
     max-height: 13em;
-    
+    qeeqwggwwgwgwgw
 }
 
 .top {
     margin:auto;
     gap:0.5em;
     max-width: 30em;
+    grid-column: 3;
 }
 
 .top_image{
@@ -61,10 +56,9 @@ img {
     max-height:15em;
 }    
 
-@media only screen and (min-width: 0em) {
-    .top {
-        grid-template-columns: (1fr 1fr 1fr);
-    }
+footer{
+    background-color: darkmagenta;
+    
 }
 
 @media only screen and (min-width: 45em) {
