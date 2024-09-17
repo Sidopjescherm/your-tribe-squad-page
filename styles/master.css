@@ -45,8 +45,8 @@ li {
 
 
 img {
-    max-width: 20em;
-    max-height: 20em;
+    max-width: 13em;
+    max-height: 13em;
     
 }
 
@@ -67,9 +67,9 @@ img {
     }
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 45em) {
     ul {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .top{
         grid-template-columns: 1fr 1fr 1fr;
@@ -83,7 +83,7 @@ img {
 
 @media only screen and (min-width: 60em)   {
     ul {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     .top{
         grid-template-columns: 1fr max-content 1fr;
