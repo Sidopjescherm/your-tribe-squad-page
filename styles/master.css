@@ -1,23 +1,41 @@
 *{
- font-family: 'Courier New', Courier, monospace;
-}
-
-header {
-    border: 0.2rem solid;
-    padding: 0px;
-    max-width:45em;
-    margin:auto;
-}
-
-h1 {
-    color: rgb(213, 83, 135);
-    font-size: 4em;
-    text-align: center;
-    background-color: purple;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
 }
 
 body {
-    background-color: lightPink;
+    background-color: #C599EC;
+    margin: 0em; /* Geen Edges*/
+}
+
+main{
+    background-color: #7A0086;
+    border-radius: 6em;
+}
+
+p{
+    color: #9004AF;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 4.688em;
+    margin-bottom: 1.438em;
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    border: solid;
+    border-radius: 30px;
+    border-width: 0; /* Geen Rand*/
+    background-color: #2F0E84;
 }
 
 ul {
@@ -54,7 +72,6 @@ img {
     max-height:25em;
 }    
 
-
 .bottom {
     gap:0.5em;
 }
@@ -72,6 +89,22 @@ footer{
 }
 
 @media only screen and (min-width: 47em) {
+    body {
+        margin-top: 4.25em;
+        margin-bottom: 0;
+        margin-left: 7.563em;
+        margin-right: 7.563em; /* Edges*/
+    }
+    h1{
+        font-size: 0em;
+    }
+    h2{
+        font-size: 6em;
+    }
+    p{
+        color: #9004AF;
+        font-size: 2em;
+    }    
     .top{
         grid-template-columns: 1fr 1fr 1fr;
         gap:1.0em;
@@ -83,6 +116,22 @@ footer{
 }
 
 @media only screen and (min-width: 55em) {
+    body {
+        margin-top: 4.25em;
+        margin-bottom: 0;
+        margin-left: 7.563em;
+        margin-right: 7.563em; /* Edges*/
+    }
+
+    h1{
+        font-size: 0em;
+    }
+    h2{
+        font-size: 6em;
+    }
+    p{
+        font-size: 2em;
+    }    
     ul {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -93,7 +142,22 @@ footer{
 }
 
 @media only screen and (min-width: 69em)   {
+    body {
+        margin-top: 4.25em;
+        margin-bottom: 0;
+        margin-left: 7.563em;
+        margin-right: 7.563em; /* Edges*/
+    }
     ul {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
+    h1{
+        font-size: 0em;
+    }
+    h2{
+        font-size: 6em;
+    }
+    p{
+        font-size: 2em;
+    }    
 }
