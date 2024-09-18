@@ -12,8 +12,7 @@ body {
 }
 
 main{
-    background-color: #7A0086;
-    border-radius: em;
+    border-radius: 7em;
     width:fit-content;
     align-items: center;
 }
@@ -40,9 +39,28 @@ h2{
     background-color: #2F0E84;
 }
 
-ul {
+.h2versie2{
+    text-align: left;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+}/* alleen voor onderstekop, Haalt alles weg dat in h2 staat, zodat dit een aparte h2 is*/
+
+h3{
+    font-size: 2.4em;
+    text-align: center;
+    margin: 0;
+    color: #9004AF;
+}
+
+.h3versie2{
+    color: #9004AF;
+}/* alleen voor onderstekop, behoud, zodat dit een aparte h3 is*/
+
+ul{
     padding-top: 40px;
     padding-right: 40px;
+    padding-bottom: 40px;
     list-style-type: none;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -50,14 +68,36 @@ ul {
     gap:1.0em;
     max-width: 70em;
     margin:auto;
+    background-color: #C599EC;
+    border-radius: 5em;
 }
 
+.bottom li{
+    display:grid;
+    grid-template-rows:10em max-content;
+    grid-template-columns:1fr max-content;
+} /* Grids in li items (Alleen door onderste li items, bovenste list items krijgen andere code */
+
+.bottom li p{
+    font-size: 1.5em;
+    grid-column-start:1;
+    grid-row-start:1;   
+    justify-self:center;
+    align-self:start;
+} /* tekst in het midden en bovenkant van het plaatje*/
+
+li img {
+    grid-column-start:1;
+    grid-column-end:-1;
+    grid-row-start:1;
+} /* plaatje neemt de gehele grid in */
+
 li {
-    text-align:center;
-    border: 0.1em solid;
+    text-align:center; /* tekst in het midden voor alle plaatjes */
     margin: auto;
     background-color:rgb(180, 147, 182)
-}
+} 
+
 
 
 img {
@@ -69,6 +109,7 @@ img {
     margin:auto;
     gap:0.5em;
     align-items: center;
+    background-color: #7A0086;
 }
 
 .top p {
@@ -104,11 +145,11 @@ footer{
 
 
 .fdnd{
-
+    color: #F8A9E2;
 }
 
 .campus{
-    
+    color: white;
 }
 
 
@@ -130,7 +171,7 @@ footer{
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 25%;
+        margin-left: 22%;
         margin-right: 25%; 
     }
     h1{
@@ -139,6 +180,12 @@ footer{
     h2{
         font-size: 6em;
     }
+    .h2versie2{
+        font-size: 4.5em;
+    }
+    .h3versie2{
+        font-size: 2.5em;
+    } /* verandered font grootte voor de artikels*/
     p{
         color: #9004AF;
         font-size: 2em;
@@ -172,7 +219,7 @@ footer{
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 25%;
+        margin-left: 22%;
         margin-right: 25%; /* Edges*/
     }
 
@@ -182,6 +229,12 @@ footer{
     h2{
         font-size: 6em;
     }
+    .h2versie2{
+        font-size: 4.5em;
+    }
+    .h3versie2{
+        font-size: 2.5em;
+    } /* verandered font grootte voor de artikels*/
     p{
         font-size: 2em;
     }    
@@ -202,7 +255,7 @@ footer{
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 25%;
+        margin-left: 22%;
         margin-right: 25%; /* Edges*/
         
     }
@@ -215,6 +268,12 @@ footer{
     h2{
         font-size: 6em;
     }
+    .h2versie2{
+        font-size: 4.5em;
+    }
+    .h3versie2{
+        font-size: 2.5em;
+    } /* verandered font grootte voor de artikels*/
     p{
         font-size: 2em;
     }    
