@@ -46,7 +46,7 @@ ul {
     display:grid;
     grid-template-columns: 1fr 1fr;
     align-items:center;
-    gap:1.5em;
+    gap:1.0em;
     max-width: 70em;
     margin:auto;
 }
@@ -55,6 +55,7 @@ li {
     text-align:center;
     border: 0.1em solid;
     margin: auto;
+    background-color:rgb(180, 147, 182)
 }
 
 
@@ -121,10 +122,20 @@ footer{
     .top_image{
         max-width: 17em;
         max-height: 17em;
+        filter: grayscale(100%);
+        transition-duration: .2s;
+    }
+    .top_image:hover{
+        filter: grayscale(0%);
+        scale: 1.1;
     }
     img {
         max-width: 17em;
         max-height: 17em;
+        transition-duration: .2s;
+    }
+    img:hover{
+        scale: 1.1;
     }
 }
 
@@ -132,8 +143,8 @@ footer{
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 7.563em;
-        margin-right: 7.563em; /* Edges*/
+        margin-left: 20%;
+        margin-right: 20%; /* Edges*/
     }
 
     h1{
