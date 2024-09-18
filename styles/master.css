@@ -84,6 +84,18 @@ footer{
     
 }
 
+.topfoto1{
+    background-color: rgb(180, 128, 180)
+}
+
+.topfoto2{
+    background-color: rgb(169, 86, 169)
+}
+
+.topfoto3{
+    background-color: rgb(197, 61, 197)
+}
+
 @media only screen and (min-width: 0em) {
     .top{
         grid-template-columns: 1fr;
@@ -126,7 +138,7 @@ footer{
         transition-duration: .2s;
     }
     .top_image:hover{
-        filter: grayscale(0%);
+        filter: grayscale(20%);
         scale: 1.1;
     }
     img {
@@ -135,7 +147,7 @@ footer{
         transition-duration: .2s;
     }
     img:hover{
-        scale: 1.1;
+        scale: 1.12;
     }
 }
 
