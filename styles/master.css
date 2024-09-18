@@ -96,6 +96,16 @@ footer{
     background-color: rgb(197, 61, 197)
 }
 
+
+.fdnd{
+
+}
+
+.campus{
+    
+}
+
+
 @media only screen and (min-width: 0em) {
     .top{
         grid-template-columns: 1fr;
@@ -107,6 +117,8 @@ footer{
         margin-left: 25%;
         margin-right: 25%; 
     }
+nd
+    .
 }
 
 @media only screen and (min-width: 47em) {
