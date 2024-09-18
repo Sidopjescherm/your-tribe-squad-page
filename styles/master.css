@@ -220,6 +220,7 @@ footer{
     img {
         max-width: 17em;
         max-height: 17em;
+        filter: grayscale(100%);
         transition-duration: .2s;
     }
     img:hover{
