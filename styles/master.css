@@ -90,12 +90,13 @@ li img {
     grid-column-start:1;
     grid-column-end:-1;
     grid-row-start:1;
+    box-shadow: 0em .1em .1em black;
 } /* plaatje neemt de gehele grid in */
 
 li {
     text-align:center; /* tekst in het midden voor alle plaatjes */
     margin: auto;
-    background-color:rgb(180, 147, 182)
+    background-color:rgb(180, 147, 182);
 } 
 
 
@@ -128,6 +129,8 @@ img {
 
 footer{
     background-color: darkmagenta;
+    padding: 0em 4em 4em 4em;
+
     
 }
 
@@ -145,7 +148,8 @@ footer{
 
 
 .fdnd{
-    color: #F8A9E2;
+    background-color: #B75AC0;
+    border-radius: 1em;
 }
 
 .campus{
@@ -164,6 +168,13 @@ footer{
         margin-left: 25%;
         margin-right: 25%; /* Edges*/
     }
+    .fdnd{
+    p{
+      color: #F8A9E2; 
+      font-size: 100%;
+      align-content: center; 
+    }
+    padding: 1em;
 
 }
 
@@ -202,16 +213,26 @@ footer{
         transition-duration: .2s;
     }
     .top_image:hover{
-        filter: grayscale(20%);
+        filter: grayscale(0%);
         scale: 1.1;
     }
     img {
         max-width: 17em;
         max-height: 17em;
+        filter: grayscale(100%);
         transition-duration: .2s;
     }
     img:hover{
         scale: 1.12;
+        filter: grayscale(0%);
+    }
+    .fdnd{
+        padding: 1em 2em;
+        p{
+          color: #F8A9E2; 
+          font-size: 140%;
+          align-content: center; 
+        }
     }
 }
 
