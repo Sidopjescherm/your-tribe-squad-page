@@ -13,7 +13,7 @@ body {
 
 main{
     background-color: #7A0086;
-    border-radius: 6em;
+    border-radius: em;
     width:fit-content;
     align-items: center;
 }
@@ -42,6 +42,7 @@ h2{
 
 ul {
     padding-top: 40px;
+    padding-right: 40px;
     list-style-type: none;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -70,6 +71,11 @@ img {
     align-items: center;
 }
 
+.top p {
+    color: white;
+}
+
+
 .top_image{
     max-width: 25em;
     max-height:25em;
@@ -85,15 +91,15 @@ footer{
 }
 
 .topfoto1{
-    background-color: rgb(180, 128, 180)
+    background-color: #2F0E84;
 }
 
 .topfoto2{
-    background-color: rgb(169, 86, 169)
+    background-color: #2F0E84;
 }
 
 .topfoto3{
-    background-color: rgb(197, 61, 197)
+    background-color: #2F0E84;
 }
 
 
@@ -115,18 +121,17 @@ footer{
         margin-top: 1.25em;
         margin-bottom: 0;
         margin-left: 25%;
-        margin-right: 25%; 
+        margin-right: 25%; /* Edges*/
     }
-nd
-    .
+
 }
 
 @media only screen and (min-width: 47em) {
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 6.563em;
-        margin-right: 6.563em; /* Edges*/
+        margin-left: 25%;
+        margin-right: 25%; 
     }
     h1{
         font-size: 0em;
@@ -167,8 +172,8 @@ nd
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 20%;
-        margin-right: 20%; /* Edges*/
+        margin-left: 25%;
+        margin-right: 25%; /* Edges*/
     }
 
     h1{
