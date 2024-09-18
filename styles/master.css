@@ -14,17 +14,19 @@ body {
 main{
     background-color: #7A0086;
     border-radius: 6em;
+    width:fit-content;
+    align-items: center;
 }
 
 p{
-    color: #9004AF;
+    color: #33113a66;
     font-size: 1.5em;
 }
 
 h1 {
     font-size: 2.5em;
     text-align: center;
-    margin-top: 4.688em;
+    margin-top: 1.688em;
     margin-bottom: 1.438em;
 }
 
@@ -57,8 +59,8 @@ li {
 
 
 img {
-    max-width: 20em;
-    max-height: 20em;
+    max-width: 12em;
+    max-height: 12em;
 }
 
 .top {
@@ -84,16 +86,22 @@ footer{
 @media only screen and (min-width: 0em) {
     .top{
         grid-template-columns: 1fr;
+        
     }
-
+    body {
+        margin-top: 1.25em;
+        margin-bottom: 0;
+        margin-left: 25%;
+        margin-right: 25%; 
+    }
 }
 
 @media only screen and (min-width: 47em) {
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 7.563em;
-        margin-right: 7.563em; /* Edges*/
+        margin-left: 6.563em;
+        margin-right: 6.563em; /* Edges*/
     }
     h1{
         font-size: 0em;
@@ -107,11 +115,16 @@ footer{
     }    
     .top{
         grid-template-columns: 1fr 1fr 1fr;
-        gap:1.0em;
+        gap:0.5em;
+        margin:0%;
     }
     .top_image{
-        max-width: 20em;
-        max-height: 20em;
+        max-width: 17em;
+        max-height: 17em;
+    }
+    img {
+        max-width: 17em;
+        max-height: 17em;
     }
 }
 
@@ -136,17 +149,22 @@ footer{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     img {
-        max-width: 17em;
-        max-height: 17em;
+        max-width: 12em;
+        max-height: 12em;
+    }
+
+    .bottom {
+        gap:0.5em;
     }
 }
 
-@media only screen and (min-width: 69em)   {
+@media only screen and (min-width: 76em)   {
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 7.563em;
-        margin-right: 7.563em; /* Edges*/
+        margin-left: 25%;
+        margin-right: 25%; /* Edges*/
+        
     }
     ul {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -160,4 +178,12 @@ footer{
     p{
         font-size: 2em;
     }    
+    img {
+        max-width: 15em;
+        max-height: 15em;
+    }
+    .top_image{
+        max-width: 20em;
+        max-height: 20em;
+    }
 }
