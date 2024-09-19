@@ -135,7 +135,9 @@ img {
 
 footer{
     background-color: darkmagenta;
-    padding: 0em 4em 4em 4em;
+    p{
+        color: #D38FE8;
+    }
 
     
 }
