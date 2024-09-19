@@ -25,9 +25,15 @@ https://sidopjescherm.github.io/your-tribe-squad-page/sidney/index.html
 
 
 Screenshots:
-![image](https://github.com/user-attachments/assets/9c05e5b5-cbb6-4bd7-a28d-50d92d3d10d9)
-![image](https://github.com/user-attachments/assets/e9986ca7-658b-4183-99fd-69ff85a6ab3d)
-![image](https://github.com/user-attachments/assets/59497640-be11-424f-bed8-b3c57ad772fe)
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/9ae09bd4-d6cf-4dee-9c25-5a4a9a809a89">
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/f6ce3a54-84d5-4305-9051-7a3c546f8abe">
+<img width="1278" alt="image" src="https://github.com/user-attachments/assets/c90252f4-76bf-4396-b4aa-c1097bfe506b">
+
+Telefoon:
+<img width="262" alt="image" src="https://github.com/user-attachments/assets/d34c23b1-72c8-429b-9b5f-3d2f3ee7ca43">
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/7b0a8435-0ad2-407b-8bac-ed728036725c">
+
+
 
 
 
