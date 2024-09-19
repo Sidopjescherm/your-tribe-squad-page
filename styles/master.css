@@ -70,7 +70,7 @@ ul{
     grid-template-columns: 1fr 1fr;
     align-items:center;
     gap:1.0em;
-    max-width: 70em;
+
     margin:auto;
     background-color: #C599EC;
     border-radius: 5em;
@@ -171,8 +171,8 @@ img {
     body {
         margin-top: 1.25em;
         margin-bottom: 0;
-        margin-left: 22%;
-        margin-right: 25%; /* Edges*/
+        margin-left: 5%;
+        margin-right: 5%; /* Edges*/
     }
     .fdnd p{
       color: #F8A9E2; 
@@ -185,8 +185,8 @@ img {
     body {
         margin-top: 4.25em;
         margin-bottom: 0;
-        margin-left: 22%;
-        margin-right: 25%; 
+        margin-left: 10%;
+        margin-right: 10%; 
     }
     h1{
         font-size: 0em;
