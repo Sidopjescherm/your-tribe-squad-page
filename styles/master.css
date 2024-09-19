@@ -62,6 +62,11 @@ h3{
     font-size: 2em;
 }/* alleen voor onderstekop, behoud, zodat dit een aparte h3 is*/
 
+h4{
+    font-size: 1em;
+    text-align: center;
+}
+
 ul{
     padding-top: 40px;
     padding-right: 40px;
@@ -208,6 +213,9 @@ img {
         padding: 0;
         font-size: 2.5em;
     } /* verandered font grootte voor de artikels*/
+    h4{
+        font-size: 0;
+    }
     p{
         color: #9004AF;
         font-size: 2em;
