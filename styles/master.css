@@ -26,8 +26,6 @@ p{
 h1 {
     font-size: 2.5em;
     text-align: center;
-    margin-top: 1.688em;
-    margin-bottom: 1.438em;
 }
 
 h2{
@@ -57,8 +55,12 @@ h3{
 }
 
 .h3versie2{
+    margin-top: 1em;
+    padding: 1em;
+    text-align: right;
     position: static; /* verwijderen wat normale h3 heeft*/
     color: #9004AF;
+    font-size: 2em;
 }/* alleen voor onderstekop, behoud, zodat dit een aparte h3 is*/
 
 ul{
@@ -124,7 +126,7 @@ li img {
     grid-column-start:1;
     grid-column-end:-1;
     grid-row-start:1;
-    box-shadow: 0em .1em .1em black;
+    transition: ease 0.3s;
 } /* plaatje neemt de gehele grid in */
 
 li {
@@ -150,10 +152,16 @@ img {
     background-color: #2F0E84;
 }
 
-
 .fdnd{
+    text-align: right;
     background-color: #B75AC0;
-    border-radius: 1em;
+    border-radius: 3em;
+    margin-bottom: 4em;
+}
+
+.fdnd p{
+    margin: 0;
+    padding: 2em;
 }
 
 .campus{
@@ -198,6 +206,7 @@ img {
         font-size: 4.5em;
     }
     .h3versie2{
+        padding: 0;
         font-size: 2.5em;
     } /* verandered font grootte voor de artikels*/
     p{
@@ -232,11 +241,13 @@ img {
     }
     .fdnd{
         padding: 1em 2em;
-        p{
-          color: #F8A9E2; 
-          font-size: 140%;
-          align-content: center; 
-        }
+        margin-top: -5.5em;
+    }
+    .fdnd p{
+        color: #F8A9E2; 
+        font-size: 140%;
+        align-content: center; 
+        padding: 1em;
     }
 }
 
@@ -258,7 +269,7 @@ img {
         font-size: 4.5em;
     }
     .h3versie2{
-        font-size: 2.5em;
+        font-size: 3em;
     } /* verandered font grootte voor de artikels*/
     p{
         font-size: 2em;
@@ -297,7 +308,7 @@ img {
         font-size: 4.5em;
     }
     .h3versie2{
-        font-size: 2.5em;
+        font-size: 3em;
     } /* verandered font grootte voor de artikels*/
     p{
         font-size: 2em;
