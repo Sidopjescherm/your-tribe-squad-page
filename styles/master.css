@@ -1,6 +1,5 @@
 *{
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
     color: white;
@@ -100,7 +99,7 @@ ul{
 }    
 
 .bottom{
-    z-index: -1em; /* zorgt ervoor dat tekst voor de ul bottom staat */
+    z-index: -1; /* zorgt ervoor dat tekst voor de ul bottom staat */
 }
 
 .bottom li, .bottom a {
