@@ -23,6 +23,8 @@ https://sidopjescherm.github.io/your-tribe-squad-page/sebas/index.html
 Sidney:
 https://sidopjescherm.github.io/your-tribe-squad-page/sidney/index.html
 
+QR:
+![Untitled 1](https://github.com/user-attachments/assets/54a3543b-13e8-4196-8bd9-1b1985ec045c)
 
 Screenshots:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/9ae09bd4-d6cf-4dee-9c25-5a4a9a809a89">
